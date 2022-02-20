@@ -1,0 +1,45 @@
+.main-product {
+  /* width: 100%; */
+  display: flex;
+}
+.filter-wrapper {
+  flex-direction: column;
+  width: 270px;
+  height: 100%;
+  border-right: 1px solid red;
+  padding: 1rem 2rem;
+  gap: 2rem;
+  position: fixed;
+  left: 0;
+  overflow-y: auto;
+  /* background-color: red; */
+}
+
+.range-gap,
+.filter-gap,
+.rating-gap,
+.sort_gap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.featured__container {
+  row-gap: 2rem;
+  /* background-color: pink; */
+}
+
+.featured__product {
+  transition: 0.3s;
+  /* background-color: green; */
+}
+
+.bd-grid {
+  max-width: 64rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 3rem);
+  margin-left: var(--mb-3);
+  margin-right: var(--mb-3);
+}
