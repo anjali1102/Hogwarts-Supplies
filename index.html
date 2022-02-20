@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HOGWARTS SUPPLIES</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://rapidui.vercel.app/docs.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav1">
+        <div>
+          <a href="#" class="nav__logo">HOGWARTS SUPPLIES</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#featured" class="nav__link">Featured</a>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <i class="bx bx-cart nav__cart"></i>
+          <i class="bx bx-menu nav__toggle" id="nav-toggle"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-1">
+      <section
+        class="home"
+        id="home"
+      >
+        <div class="home__container">
+          <div class="home__data">
+            <h1 class="home__title">
+              <p>
+                NEW
+              </p>
+              <br /><span>ARRIVALS</span>
+            </h1>
+            <a href="#featured" class="button"
+              >GO SHOPPING</a
+            >
+          </div>
+          <img
+            src="assets/harry.gif"
+            alt="home image"
+            class="home__img"
+          />
+        </div>
+      </section>
+      <section class="collection section">
+        <div class="collection__container bd-grid">
+          <div class="collection__box">
+            <img
+              src="assets/bg2.gif"
+              alt=""
+              class="collection__img"
+            />
+
+            <div class="collection__data">
+              <h2 class="collection__title">
+                <span class="collection__subtitle">Men</span><br />PRODUCTS
+              </h2>
+              <a href="#" class="collection__view">View collection</a>
+            </div>
+          </div>
+
+          <div class="collection__box">
+            <div class="collection__data">
+              <h2 class="collection__title">
+                <span class="collection__subtitle">Women</span><br />PRODUCTS
+              </h2>
+              <a href="#" class="collection__view">View collection</a>
+            </div>
+            <img
+              src="assets/bg.gif"
+              alt=""
+              class="collection__img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="featured section" id="featured">
+        <h2 class="section-title">FEATURED PRODUCTS</h2>
+        <a href="#" class="section-all">View All</a>
+
+        <div class="featured__container bd-grid">
+          <div class="featured__product">
+            <div class="card-vertical">
+              <img class="card-image" src="assets/feature1.jpg" alt=" " />
+              <span class="card-badge">Trending</span>
+              <div class="card-info">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Tshirt</h3>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹500</p>
+                  <p class="actual-price">₹1000</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+              </div>
+              <button class="btn btn-primary add-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="featured__product">
+            <div class="card-vertical">
+              <img class="card-image" src="assets/feature3.png" alt=" " />
+              <span class="card-badge">Trending</span>
+              <div class="card-info">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Watch</h3>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹800</p>
+                  <p class="actual-price">₹1200</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+              </div>
+              <button class="btn btn-primary add-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="featured__product">
+            <div class="card-vertical">
+              <img class="card-image" src="assets/feature4.jpg" alt=" " />
+              <span class="card-badge">Trending</span>
+              <div class="card-info">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">PenDrive</h3>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹250</p>
+                  <p class="actual-price">₹500</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+              </div>
+              <button class="btn btn-primary add-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="featured__product">
+            <div class="card-vertical">
+              <img class="card-image" src="assets/feature5.jpeg" alt=" " />
+              <span class="card-badge">Trending</span>
+              <div class="card-info">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Socks</h3>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹1500</p>
+                  <p class="actual-price">₹2000</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+              </div>
+              <button class="btn btn-primary add-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="featured__product">
+            <div class="card-vertical">
+              <img class="card-image" src="assets/feature6.jpg" alt=" " />
+              <span class="card-badge">Trending</span>
+              <div class="card-info">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Stickers Pack</h3>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹2000</p>
+                  <p class="actual-price">₹4000</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+              </div>
+              <button class="btn btn-primary add-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="featured__product">
+            <div class="card-vertical">
+              <img class="card-image" src="assets/feature10.jpg" alt=" " />
+              <span class="card-badge">Trending</span>
+              <div class="card-info">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Toys</h3>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹500</p>
+                  <p class="actual-price">₹1000</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+              </div>
+              <button class="btn btn-primary add-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <div class="featured__product">
+            <div class="card-vertical">
+              <img class="card-image" src="assets/feature8.jpg" alt=" " />
+              <span class="card-badge">Trending</span>
+              <div class="card-info">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Leather Bagpack</h3>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹5000</p>
+                  <p class="actual-price">₹10000</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+              </div>
+              <button class="btn btn-primary add-cart">Add to Cart</button>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer__copy2">
+        <a href="#" class="footer__social"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a href="#" class="footer__social"><i class="bx bxl-twitter"></i></a>
+      </p>
+      <p class="footer__copy">&#169; 2022 Copyright all right reserved</p>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
