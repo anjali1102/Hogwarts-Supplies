@@ -1,6 +1,12 @@
-/* * {
-  outline: 2px solid red;
-} */
+@import url("./nav.css");
+
+html {
+  scroll-behavior: smooth;
+}
+ul.menu {
+  display: flex;
+  align-items: center;
+}
 
 .main-product {
   display: flex;
@@ -61,35 +67,6 @@
   .filter-wrapper {
     display: none;
   }
-}
-
-.header {
-  position: sticky;
-  top: 0;
-  z-index: var(--z-3);
-  border-bottom: 1px solid var(--primary-dark);
-  background-color: red;
-}
-
-/* Logo */
-.nav-logo {
-  display: inline-block;
-  font-size: var(--size-8);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.nav-logo > * {
-  color: var(--white);
-  padding: var(--size-1) var(--size-2);
-  font-weight: var(--weight-bold);
-}
-
-.nav-logo span:nth-child(1) {
-  background-color: pink;
-}
-
-.nav-logo span:nth-child(2) {
-  background-color: green;
 }
 
 @media screen and (max-width: 600px) {

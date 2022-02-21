@@ -6,60 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://rapidui.vercel.app/docs.css" />
+    <link rel="stylesheet" href="https://rapidui.vercel.app/docs.css">
     <link rel="stylesheet" href="../style/product.css" />
   </head>
   <body>
-    <header class="header-p">
-      <nav class="navbar-p">
-        <div class="nav-brand-p">
-          <button class="btn hamburger-menu-p">
-            <i class="fas fa-bars icon"></i>
-          </button>
-          <a href="../index.html" class="nav-logo" role="img">
-            <span>MARVEL</span
-            ><span>KART<i class="fa-solid fa-cart-shopping"></i></span>
-          </a>
-        </div>
-        <div class="search-p">
-          <i class="fa-solid fa-magnifying-glass icon"></i>
-          <input
-            class="search-field"
-            type="search"
-            placeholder="Search..."
-            aria-label="Search Products"
-          />
-        </div>
-        <div class="nav mobile-nav-p">
-          <button class="btn nav-close-btn">
-            <i class="fas fa-arrow-left"></i>
-          </button>
-          <ul class="menu">
-            <li>
-              <a href="./login.html" class="btn btn-primary">Login</a>
-            </li>
-            <li>
-              <a href="./wishlist.html" class="wishlist">
-                <div class="badge-wrapper">
-                  <i class="fas fa-heart menu-icon"></i>
-                  <span class="badge badge-info">3</span>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a href="./cart.html" class="cart">
-                <div class="badge-wrapper">
-                  <i class="fas fa-shopping-cart menu-icon"></i>
-                  <span class="badge badge-info">3</span>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
+    <nav class="navbar_container">
+      <div class="navbar_main">
+          <a href="/"><img src="../assets/Hogwarts Supplies.png" class="brand-logo" alt=""></a>
+          <div class="nav-items">
+              <div class="search">
+                  <input type="text" class="search-box" placeholder="search brand, product">
+                  <button class="search-btn"><i class="fa fa-search"></i></button>
+              </div>
+              <a href="/pages/login.html"><img src="../assets/user.png" alt=""></a>
+              <a href="#"><img src="../assets/cart.png" alt=""></a>
+          </div>
+      </div>
       </nav>
-    </header>
-
-    <main class="main-product">
+        <main class="main-product">
       <div class="filter-wrapper">
           <div class="filter-header">
             <h4>Filters</h4>
@@ -310,6 +274,6 @@
           </section>
       </div>
     </main>
-    <script src="https://rapidui.vercel.app/index.js" defer />
+    <script src="https://rapidui.vercel.app/index.js"></script>
   </body>
 </html>
