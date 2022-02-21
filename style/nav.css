@@ -1,0 +1,33 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-3);
+  border-bottom: 1px solid var(--primary-dark);
+}
+
+/* Logo */
+.nav-logo {
+  display: inline-block;
+  font-size: var(--size-8);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-logo > * {
+  color: var(--white);
+  padding: var(--size-1) var(--size-2);
+  font-weight: var(--weight-bold);
+}
+
+.nav-logo span:nth-child(1) {
+  background-color: var(--primary);
+}
+
+.nav-logo span:nth-child(2) {
+  background-color: var(--secondary);
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 80%;
+  }
+}

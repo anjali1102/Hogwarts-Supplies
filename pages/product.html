@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://rapidui.vercel.app/docs.css" />
+    <link rel="stylesheet" href="../style/product.css" />
+  </head>
+  <body>
+    <header class="header-p">
+      <nav class="navbar-p">
+        <div class="nav-brand-p">
+          <button class="btn hamburger-menu-p">
+            <i class="fas fa-bars icon"></i>
+          </button>
+          <a href="../index.html" class="nav-logo" role="img">
+            <span>MARVEL</span
+            ><span>KART<i class="fa-solid fa-cart-shopping"></i></span>
+          </a>
+        </div>
+        <div class="search-p">
+          <i class="fa-solid fa-magnifying-glass icon"></i>
+          <input
+            class="search-field"
+            type="search"
+            placeholder="Search..."
+            aria-label="Search Products"
+          />
+        </div>
+        <div class="nav mobile-nav-p">
+          <button class="btn nav-close-btn">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <ul class="menu">
+            <li>
+              <a href="./login.html" class="btn btn-primary">Login</a>
+            </li>
+            <li>
+              <a href="./wishlist.html" class="wishlist">
+                <div class="badge-wrapper">
+                  <i class="fas fa-heart menu-icon"></i>
+                  <span class="badge badge-info">3</span>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="./cart.html" class="cart">
+                <div class="badge-wrapper">
+                  <i class="fas fa-shopping-cart menu-icon"></i>
+                  <span class="badge badge-info">3</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-product">
+      <div class="filter-wrapper">
+          <div class="filter-header">
+            <h4>Filters</h4>
+            <p>Clear</p>
+          </div>
+          
+          <div class="priceSlider">
+              <h3>Price</h3>
+              <div class="range-gap">
+                <div class="range-price">
+                  <p>50</p>
+                  <p>150</p>
+                  <p>200</p>
+                </div>
+              <input
+              type="range"
+              min="150"
+              max="200"
+              value="0"
+              class="slider"
+            />
+          </div>
+        </div>
+
+        <div class="filter_category">
+          <h3>Category</h3>
+          <div class="filter-gap">
+            <label class="select-input">
+              <input
+                type="checkbox"
+                name="light"
+                class="checkbox-input"
+                value=""
+                checked
+              />
+              <span class="check-desc">Self Help</span>
+            </label>
+            <label class="select-input">
+              <input
+                type="checkbox"
+                name="light"
+                class="checkbox-input"
+                value=""
+                checked
+              />
+              <span class="check-desc">Self Help</span>
+            </label>
+            <label class="select-input">
+              <input
+                type="checkbox"
+                name="light"
+                class="checkbox-input"
+                value=""
+                checked
+              />
+              <span class="check-desc">Self Help</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="filter_rating">
+            <h3>Filter</h3>
+            <div class="rating-gap">
+            <label class="select-input">
+              <input
+                type="radio"
+                name="rating"
+                class="radio-input"
+                value=""
+                checked
+              />
+              <span class="check-desc">4 Stars & above</span>
+            </label>
+            <label class="select-input">
+              <input type="radio" name="rating" class="radio-input" value="" />
+              <span class="check-desc">3 Stars & above</span>
+            </label>
+            <label class="select-input">
+              <input type="radio" name="rating" class="radio-input" value="" />
+              <span class="check-desc">2 Stars & above</span>
+            </label>
+            <label class="select-input">
+              <input type="radio" name="rating" class="radio-input" value="" />
+              <span class="check-desc">1 Stars & above</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="filter_sort">
+            <h3>Sort By</h3>
+            <div class="sort_gap">
+            <label class="select-input">
+              <input type="radio" name="rating" class="radio-input" value="" />
+              <span class="check-desc">Price - Low to High</span>
+            </label>
+            <label class="select-input">
+              <input type="radio" name="rating" class="radio-input" value="" />
+              <span class="check-desc">Price - High to Low</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-wrapper">
+        <section class="featured-section" id="featured">
+            <h2 class="section-title">FEATURED PRODUCTS</h2>
+    
+            <div class="featured__container bd-grid">
+              <div class="featured__product">
+                <div class="card-vertical">
+                  <img class="card-image" src="../assets/feature1.jpg" alt=" " />
+                  <span class="card-badge">Trending</span>
+                  <div class="card-info">
+                    <div class="card-title">
+                      <div>
+                        <h3 class="card-title-header">Tshirt</h3>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p class="disc-price">₹500</p>
+                      <p class="actual-price">₹1000</p>
+                      <p class="price-percentage">(50% OFF)</p>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary add-cart">Add to Cart</button>
+                </div>
+              </div>
+    
+              <div class="featured__product">
+                <div class="card-vertical">
+                  <img class="card-image" src="../assets/feature3.png" alt=" " />
+                  <span class="card-badge">Trending</span>
+                  <div class="card-info">
+                    <div class="card-title">
+                      <div>
+                        <h3 class="card-title-header">Watch</h3>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p class="disc-price">₹800</p>
+                      <p class="actual-price">₹1200</p>
+                      <p class="price-percentage">(50% OFF)</p>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary add-cart">Add to Cart</button>
+                </div>
+              </div>
+    
+              <div class="featured__product">
+                <div class="card-vertical">
+                  <img class="card-image" src="../assets/feature4.jpg" alt=" " />
+                  <span class="card-badge">Trending</span>
+                  <div class="card-info">
+                    <div class="card-title">
+                      <div>
+                        <h3 class="card-title-header">PenDrive</h3>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p class="disc-price">₹250</p>
+                      <p class="actual-price">₹500</p>
+                      <p class="price-percentage">(50% OFF)</p>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary add-cart">Add to Cart</button>
+                </div>
+              </div>
+    
+              <div class="featured__product">
+                <div class="card-vertical">
+                  <img class="card-image" src="../assets/feature5.jpeg" alt=" " />
+                  <span class="card-badge">Trending</span>
+                  <div class="card-info">
+                    <div class="card-title">
+                      <div>
+                        <h3 class="card-title-header">Socks</h3>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p class="disc-price">₹1500</p>
+                      <p class="actual-price">₹2000</p>
+                      <p class="price-percentage">(50% OFF)</p>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary add-cart">Add to Cart</button>
+                </div>
+              </div>
+    
+              <div class="featured__product">
+                <div class="card-vertical">
+                  <img class="card-image" src="../assets/feature6.jpg" alt=" " />
+                  <span class="card-badge">Trending</span>
+                  <div class="card-info">
+                    <div class="card-title">
+                      <div>
+                        <h3 class="card-title-header">Stickers Pack</h3>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p class="disc-price">₹2000</p>
+                      <p class="actual-price">₹4000</p>
+                      <p class="price-percentage">(50% OFF)</p>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary add-cart">Add to Cart</button>
+                </div>
+              </div>
+    
+              <div class="featured__product">
+                <div class="card-vertical">
+                  <img class="card-image" src="../assets/feature10.jpg" alt=" " />
+                  <span class="card-badge">Trending</span>
+                  <div class="card-info">
+                    <div class="card-title">
+                      <div>
+                        <h3 class="card-title-header">Toys</h3>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p class="disc-price">₹500</p>
+                      <p class="actual-price">₹1000</p>
+                      <p class="price-percentage">(50% OFF)</p>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary add-cart">Add to Cart</button>
+                </div>
+              </div>
+    
+              <div class="featured__product">
+                <div class="card-vertical">
+                  <img class="card-image" src="../assets/feature8.jpg" alt=" " />
+                  <span class="card-badge">Trending</span>
+                  <div class="card-info">
+                    <div class="card-title">
+                      <div>
+                        <h3 class="card-title-header">Leather Bagpack</h3>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p class="disc-price">₹5000</p>
+                      <p class="actual-price">₹10000</p>
+                      <p class="price-percentage">(50% OFF)</p>
+                    </div>
+                  </div>
+                  <button class="btn btn-primary add-cart">Add to Cart</button>
+                </div>
+            </div>
+          </section>
+      </div>
+    </main>
+    <script src="https://rapidui.vercel.app/index.js" defer />
+  </body>
+</html>

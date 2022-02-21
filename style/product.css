@@ -1,0 +1,99 @@
+/* * {
+  outline: 2px solid red;
+} */
+
+.main-product {
+  display: flex;
+}
+
+.filter-wrapper {
+  flex-direction: column;
+  width: 270px;
+  height: 100%;
+  padding: 1rem 2rem;
+  left: 0;
+  overflow-y: auto;
+  flex-shrink: 0;
+  gap: 2rem;
+}
+
+.filter-header,
+.range-price {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.range-gap,
+.filter-gap,
+.rating-gap,
+.sort_gap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 0.6rem;
+}
+
+.featured__container {
+  row-gap: 2rem;
+}
+
+.featured__product {
+  transition: 0.3s;
+  justify-self: center;
+}
+
+.product-wrapper {
+  width: 100%;
+}
+
+.bd-grid {
+  max-width: 64rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-column-gap: 2rem;
+  width: calc(100% - 3rem);
+  margin-left: var(--mb-3);
+  margin-right: var(--mb-3);
+}
+
+@media screen and (max-width: 64rem) {
+  .filter-wrapper {
+    display: none;
+  }
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-3);
+  border-bottom: 1px solid var(--primary-dark);
+  background-color: red;
+}
+
+/* Logo */
+.nav-logo {
+  display: inline-block;
+  font-size: var(--size-8);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-logo > * {
+  color: var(--white);
+  padding: var(--size-1) var(--size-2);
+  font-weight: var(--weight-bold);
+}
+
+.nav-logo span:nth-child(1) {
+  background-color: pink;
+}
+
+.nav-logo span:nth-child(2) {
+  background-color: green;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 80%;
+  }
+}
