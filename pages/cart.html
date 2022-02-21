@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://rapidui.vercel.app/docs.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="../style/cart.css" />
+    <title>Cart</title>
+  </head>
+  <body>
+    <nav class="navbar_container">
+      <div class="navbar_main">
+        <a href="/"
+          ><img src="../assets/Hogwarts Supplies.png" class="brand-logo" alt="logo"
+        /></a>
+        <div class="nav-items">
+          <div class="search">
+            <input
+              type="text"
+              class="search-box"
+              placeholder="search brand, product"
+            />
+            <button class="search-btn"><i class="fa fa-search"></i></button>
+          </div>
+          <a href="/pages/login.html"
+            ><img src="../assets/user.png" alt="login img"
+          /></a>
+          <a href="#"><img src="../assets/cart.png" alt="cart img" /></a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="horizontal-container">
+        <div class="card-horizontal">
+          <img
+            class="card-img horizontal-img"
+            src="/assets/feature12.jpg"
+            alt="card"
+          />
+          <div class="card-info">
+            <div class="card-title">
+                <h3>Specs</h3>
+            </div>
+            <div class="price">
+              <div class="disc-price">₹850</div>
+              <div class="actual-price">₹1500</div>
+              <div class="price-percentage">(50% OFF)</div>
+            </div>
+            <div class="counter">
+                <p>Quantity:</p>
+                <button><i class="fa fa-minus"></i></button>
+                <input type="number" value="1" min="1"></input>
+                <button><i class="fa fa-plus"></i></button>
+            </div>
+            <button class="btn btn-primary add-cart">Go to Cart</button>
+            <button class="btn btn-primary add-cart">Move to Wishlist</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+        <div class="horizontal-container">
+          <div class="card-horizontal">
+            <img
+              class="card-img horizontal-img"
+              src="/assets/feature14.png"
+              alt="card"
+            />
+            <div class="card-info">
+              <div class="card-title">
+                <div>
+                  <h3>Barbie Doll Kit</h3>
+                </div>
+              </div>
+              <div class="price">
+                <p class="disc-price">₹623</p>
+                <p class="actual-price">₹1246</p>
+                <p class="price-percentage">(50% OFF)</p>
+              </div>
+              <div class="counter">
+                  <p>Quantity:</p>
+                  <button><i class="fa fa-minus"></i></button>
+                  <input type="number" value="1" min="1"></input>
+                  <button><i class="fa fa-plus"></i></button>
+              </div>
+              <button class="btn btn-primary add-cart">Go to Cart</button>
+              <button class="btn btn-primary add-cart">Move to Wishlist</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </body>
+</html>
