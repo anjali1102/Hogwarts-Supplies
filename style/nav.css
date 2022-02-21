@@ -23,7 +23,7 @@
 }
 
 .search {
-  width: 500px;
+  width: 400px;
   display: flex;
 }
 @media screen and (max-width: 768px) {
@@ -33,7 +33,7 @@
 }
 
 .search-box {
-  width: 80%;
+  width: 60%;
   height: 40px;
   padding: 10px;
   border-top-left-radius: 10px;
