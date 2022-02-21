@@ -1,0 +1,59 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="../style/login.css" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <nav class="navbar_container">
+      <div class="navbar_main">
+        <a href="/"
+          ><img src="../assets/Hogwarts Supplies.png" class="brand-logo" alt=""
+        /></a>
+        <div class="nav-items">
+          <div class="search">
+            <input
+              type="text"
+              class="search-box"
+              placeholder="search brand, product"
+            />
+            <button class="search-btn"><i class="fa fa-search"></i></button>
+          </div>
+          <a href="/pages/login.html"
+            ><img src="../assets/user.png" alt=""
+          /></a>
+          <a href="#"><img src="../assets/cart.png" alt="" /></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Login Card -->
+    <div class="center">
+      <h1>Signup</h1>
+      <form method="post">
+        <div class="txt_field">
+          <input type="text" required />
+          <span></span>
+          <label>Email Address</label>
+        </div>
+        <div class="txt_field">
+          <input type="password" required />
+          <span></span>
+          <label>Password</label>
+        </div>
+        <div class="pass">Forgot Password?</div>
+        <input type="submit" value="Register" />
+        <div class="signup_link">
+          Already have a account | <a href="../pages/login.html"><b>Login</b></a>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

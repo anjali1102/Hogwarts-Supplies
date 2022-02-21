@@ -1,5 +1,9 @@
 /*  Google Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+/* Added Navbar */
+@import url("./nav.css");
+
 /* Variable Css*/
 :root {
   --header-height: 3rem;
@@ -12,7 +16,6 @@
   --dark-color-light: #606060;
   --grey-color: #f0f1f3;
   --green: #26bd65;
-
   --body-font: "Open Sans", sans-serif;
   --big-font-size: 3rem;
   --h1-font-size: 1.5rem;
@@ -44,7 +47,7 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  /* margin: var(--header-height) 0 0 0; */
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--dark-color);
@@ -118,55 +121,6 @@ img {
   z-index: var(--z-index);
   background-color: var(--grey-color);
   align-items: center;
-}
-
-.nav1 {
-  height: var(--header-height);
-  display: flex !important;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  max-width: 75rem;
-}
-
-@media screen and (max-width: 768px) {
-  .nav__menu {
-    position: fixed;
-    top: var(--header-height);
-    right: -100%;
-    width: 80%;
-    height: 100%;
-    padding: 2rem;
-    background-color: var(--white-color);
-    transition: 0.5s;
-  }
-}
-
-.nav__item {
-  margin-bottom: var(--mb-4);
-}
-
-.nav__link {
-  color: var(--dark-color);
-  font-weight: var(--font-semi);
-}
-.nav__link:hover {
-  color: var(--first-color);
-}
-
-.nav__logo {
-  font-weight: var(--font-bold);
-  padding-left: 10px;
-}
-
-.nav__cart {
-  font-size: 1.5rem;
-  margin-right: var(--mb-4);
-}
-
-.nav__toggle {
-  font-size: 1.5rem;
-  cursor: pointer;
 }
 
 .show {
@@ -271,6 +225,8 @@ img {
   transform: translateY(-0.5rem);
 }
 
+/* Footer */
+
 .footer {
   display: flex;
   flex-direction: row-reverse;
@@ -279,15 +235,6 @@ img {
   align-items: center;
   background-color: var(--dark-color);
   color: var(--white-color);
-}
-
-.footer__social {
-  color: var(--green);
-}
-
-.footer__social {
-  font-size: 1.3rem;
-  margin-right: var(--mb-1);
 }
 
 .footer__copy {
@@ -314,28 +261,6 @@ img {
 
   .section-all {
     margin-bottom: var(--mb-4);
-  }
-
-  .nav1 {
-    height: calc(var(--header-height) + 1rem);
-    justify-content: initial;
-  }
-
-  .nav__menu {
-    margin-left: auto;
-  }
-
-  .nav__list {
-    display: flex;
-  }
-
-  .nav__item {
-    margin-left: var(--mb-4);
-    margin-bottom: 0;
-  }
-
-  .nav__toggle {
-    display: none;
   }
 
   .home__container {
