@@ -8,60 +8,42 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
 
-    <link rel="stylesheet" href="../style/login.css" />
-    <title>Login</title>
+    <link rel="stylesheet" href="../style/forgot.css" />
+    <title>Forgot Password?</title>
   </head>
   <body>
     <nav class="navbar_container">
       <div class="navbar_main">
         <a href="/"
-          ><img
-            src="../assets/Hogwarts Supplies.png"
-            class="brand-logo"
-            alt="logo"
+          ><img src="../assets/Hogwarts Supplies.png" class="brand-logo" alt=""
         /></a>
         <div class="nav-items">
           <div class="search">
-            <input type="text" class="search-box" placeholder="search" />
+            <input
+              type="text"
+              class="search-box"
+              placeholder="search brand, product"
+            />
             <button class="search-btn"><i class="fa fa-search"></i></button>
           </div>
-          <a href="/pages/wishlist.html">
-            <img src="../assets/heart.png" alt="heart img" />
-          </a>
           <a href="/pages/login.html"
-            ><img src="../assets/user.png" alt="user img"
+            ><img src="../assets/user.png" alt=""
           /></a>
-          <a href="/pages/cart.html"
-            ><img src="../assets/cart.png" alt="cart img"
-          /></a>
+          <a href="#"><img src="../assets/cart.png" alt="" /></a>
         </div>
       </div>
     </nav>
 
     <!-- Login Card -->
     <div class="center">
-      <h1>Login</h1>
+      <h1>Forgot Password? 😔</h1>
       <form method="post">
         <div class="txt_field">
           <input type="text" required />
           <span></span>
           <label>Email Address</label>
         </div>
-        <div class="txt_field">
-          <input type="password" required />
-          <span></span>
-          <label>Password</label>
-        </div>
-        <a href="/pages/forgot.html"
-          ><div class="pass">Forgot Password?</div></a
-        >
-        <div class="checkbox_container">
-          <label class="checkbox">
-            <input type="checkbox" />
-            Remember me
-          </label>
-        </div>
-        <input type="submit" value="Login" />
+        <input type="submit" value="Send Email Link" />
         <div class="signup_link">
           Create Your Account | <a href="/pages/signup.html"><b>Signup</b></a>
         </div>
