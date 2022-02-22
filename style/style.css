@@ -47,7 +47,6 @@ html {
 }
 
 body {
-  /* margin: var(--header-height) 0 0 0; */
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--dark-color);
@@ -229,9 +228,8 @@ img {
 
 .footer {
   display: flex;
-  flex-direction: row-reverse;
   padding: 2rem;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: var(--dark-color);
   color: var(--white-color);

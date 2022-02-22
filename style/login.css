@@ -77,7 +77,7 @@ form .txt_field {
   width: 100%;
 }
 .pass {
-  margin: -5px 0 10px 0;
+  margin: -5px 0 10px 5px;
   color: #a6a6a6;
   cursor: pointer;
 }

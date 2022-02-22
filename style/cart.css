@@ -1,0 +1,35 @@
+@import url("/style/nav.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  object-fit: contain;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1.875rem;
+}
+@media screen and (max-width: 47.5rem) {
+  .container {
+    padding: 1.25rem;
+  }
+}
+
+.counter {
+  padding: 0.625rem;
+}
+
+.counter > input {
+  width: 2.5rem;
+}
+
+.counter > button {
+  padding: 0.15rem;
+  justify-content: center;
+  border: 2px solid var(--white-color);
+  cursor: pointer;
+  border-radius: 0.625rem;
+}
