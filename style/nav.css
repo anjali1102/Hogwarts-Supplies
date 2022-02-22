@@ -1,3 +1,11 @@
+:root{
+--white: #fff;
+--offwhite: #f5f5f5;
+--dark-gray: #a9a9a9;
+--light-gray: #d1d1d1;
+--dark: #383838;
+}
+
 .navbar_container {
   position: sticky;
   top: 0;
@@ -38,10 +46,9 @@
   padding: 0.625rem;
   border-top-left-radius: 0.625rem;
   border-bottom-left-radius: 0.625rem;
-  border: 1px solid #d1d1d1;
+  border: 1px solid var(--dark-gray);
   text-transform: capitalize;
   background: none;
-  color: #a9a9a9;
   outline: none;
 }
 
@@ -52,8 +59,8 @@
   border: none;
   outline: none;
   cursor: pointer;
-  background: #383838;
-  color: #fff;
+  background: var(--dark);
+  color: var(--white);
   text-transform: capitalize;
   font-size: 0.938rem;
   border-top-right-radius: 0.625rem;
@@ -61,7 +68,7 @@
 }
 
 .search-box::placeholder {
-  color: #a9a9a9;
+  color: var(--dark-gray);
 }
 
 .nav-items a {

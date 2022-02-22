@@ -12,6 +12,10 @@ ul.menu {
   display: flex;
 }
 
+.section-title {
+  padding: 1rem;
+}
+
 .filter-wrapper {
   flex-direction: column;
   width: 16.87rem;
@@ -61,6 +65,10 @@ ul.menu {
   width: calc(100% - 3rem);
   margin-left: var(--mb-3);
   margin-right: var(--mb-3);
+}
+
+.card-vertical {
+  height: 24rem;
 }
 
 @media screen and (max-width: 64rem) {
