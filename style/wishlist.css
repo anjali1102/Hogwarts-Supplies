@@ -8,13 +8,12 @@
 }
 
 .container {
-  /* display: block; */
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 1.87rem;
 }
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 47.5rem) {
   .container {
-    padding: 20px;
+    padding: 1.25rem;
   }
 }
