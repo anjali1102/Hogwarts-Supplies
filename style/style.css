@@ -228,9 +228,8 @@ img {
 
 .footer {
   display: flex;
-  flex-direction: row-reverse;
   padding: 2rem;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   background-color: var(--dark-color);
   color: var(--white-color);
