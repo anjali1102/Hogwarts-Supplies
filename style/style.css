@@ -223,10 +223,17 @@ img {
 
 .featured__container {
   row-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .featured__product {
   transition: 0.3s;
+  justify-self: center;
+}
+
+.featured__product .card-vertical {
+  height: 100%;
 }
 
 .featured__product:hover {
@@ -313,10 +320,6 @@ img {
 
   .collection__img {
     width: 8.125rem;
-  }
-
-  .featured__container {
-    grid-template-columns: repeat(4, 1fr);
   }
 }
 
