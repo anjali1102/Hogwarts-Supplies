@@ -1,9 +1,9 @@
 @import url("./nav.css");
-:root{
+:root {
   --green: #26bd65;
   --dank-green: #377953;
   --dark: #383838;
-  --white:#fff;
+  --white: #fff;
 }
 
 html {
@@ -32,9 +32,12 @@ ul.menu {
   overflow-y: auto;
   flex-shrink: 0;
   gap: 2rem;
+  position: sticky;
+  top: 90px;
+  left: 0;
 }
 
-.priceSlider{
+.priceSlider {
   width: 100%;
 }
 
@@ -82,21 +85,21 @@ ul.menu {
   height: 28rem;
 }
 
-.btn.btn-success{
+.btn.btn-success {
   background-color: var(--green);
 }
 
-.btn.btn-success:hover{
+.btn.btn-success:hover {
   background-color: var(--dank-green);
 }
 
-.btn.btn-secondary{
+.btn.btn-secondary {
   color: var(--dark);
   background-color: transparent;
   border: 1px solid var(--green);
 }
 
-.btn.btn-secondary:hover{
+.btn.btn-secondary:hover {
   color: var(--white);
   background-color: var(--green);
 }
