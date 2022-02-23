@@ -7,11 +7,25 @@
   object-fit: contain;
 }
 
+:root{
+  --green: #26bd65;
+  --dank-green: #377953;
+}
+
 .container {
   display: flex;
   justify-content: center;
   padding-top: 1.87rem;
 }
+
+.btn.btn-success{
+  background-color: var(--green);
+}
+
+.btn.btn-success:hover{
+  background-color: var(--dank-green);
+}
+
 @media screen and (max-width: 47.5rem) {
   .container {
     padding: 1.25rem;
