@@ -1,8 +1,15 @@
 @import url("./nav.css");
+:root{
+  --green: #26bd65;
+  --dank-green: #377953;
+  --dark: #383838;
+  --white:#fff;
+}
 
 html {
   scroll-behavior: smooth;
 }
+
 ul.menu {
   display: flex;
   align-items: center;
@@ -25,6 +32,10 @@ ul.menu {
   overflow-y: auto;
   flex-shrink: 0;
   gap: 2rem;
+}
+
+.priceSlider{
+  width: 100%;
 }
 
 .filter-header,
@@ -68,7 +79,26 @@ ul.menu {
 }
 
 .card-vertical {
-  height: 24rem;
+  height: 28rem;
+}
+
+.btn.btn-success{
+  background-color: var(--green);
+}
+
+.btn.btn-success:hover{
+  background-color: var(--dank-green);
+}
+
+.btn.btn-secondary{
+  color: var(--dark);
+  background-color: transparent;
+  border: 1px solid var(--green);
+}
+
+.btn.btn-secondary:hover{
+  color: var(--white);
+  background-color: var(--green);
 }
 
 @media screen and (max-width: 64rem) {
